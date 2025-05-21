@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -5,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cuidados com seu Bebê Reborn</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-pink-50 text-gray-800">
+<body class="bg-pink-50 text-gray-800 scroll-smooth">
+
+  <!-- Header -->
   <header class="bg-white shadow-md sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <h1 class="text-xl font-bold text-rose-600">Bebê Reborn</h1>
@@ -20,24 +22,171 @@
     </div>
   </header>
 
-  <main class="text-center">
-    <section class="bg-pink-100 py-20">
-      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-        <div class="text-left max-w-xl">
-          <h2 class="text-4xl font-bold text-rose-700 mb-4">Cuidados com seu <br><span class="text-rose-500">Bebê Reborn</span></h2>
-          <p class="mb-6 text-gray-700 text-lg">O guia completo para cuidar, conservar e aproveitar ao máximo seu bebê reborn.</p>
-          <div class="space-x-4">
-            <a href="#comprar" class="bg-rose-500 text-white px-6 py-3 rounded-full hover:bg-rose-600">Quero meu e-book</a>
-            <a href="#sobre" class="border border-rose-500 text-rose-500 px-6 py-3 rounded-full hover:bg-rose-100">Saber mais</a>
-          </div>
-        </div>
-        <div class="mt-10 md:mt-0">
-          <div class="bg-pink-200 h-64 w-80 flex items-center justify-center text-rose-500 italic rounded-xl shadow-md">Imagem do e-book</div>
+  <!-- Hero -->
+  <section class="bg-pink-100 py-20">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+      <div class="text-left max-w-xl">
+        <h2 class="text-4xl font-bold text-rose-700 mb-4">Cuidados com seu <br><span class="text-rose-500">Bebê Reborn</span></h2>
+        <p class="mb-6 text-gray-700 text-lg">O guia completo para cuidar, conservar e aproveitar ao máximo seu bebê reborn.</p>
+        <div class="space-x-4">
+          <a href="#comprar" class="bg-rose-500 text-white px-6 py-3 rounded-full hover:bg-rose-600">Quero meu e-book</a>
+          <a href="#sobre" class="border border-rose-500 text-rose-500 px-6 py-3 rounded-full hover:bg-rose-100">Saber mais</a>
         </div>
       </div>
-    </section>
+      <div class="mt-10 md:mt-0">
+        <div class="bg-pink-200 h-64 w-80 flex items-center justify-center text-rose-500 italic rounded-xl shadow-md">Imagem do e-book</div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Outras seções seguem o mesmo padrão e serão inseridas nas próximas etapas -->
-  </main>
+  <!-- Sobre o E-book -->
+  <section id="sobre" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h3 class="text-3xl font-bold text-rose-600 mb-6 border-b-2 border-rose-300 inline-block">Sobre o E-book</h3>
+        <p class="mb-4"><strong>Cuidados com seu Bebê Reborn</strong> é um guia completo para todos que desejam proporcionar o melhor cuidado para seus bebês reborn.</p>
+        <p class="mb-4">Com orientações específicas e detalhadas, você vai aprender desde técnicas básicas de manuseio até os cuidados mais avançados para preservar a qualidade e beleza do seu bebê reborn por muito mais tempo.</p>
+        <ul class="space-y-2 text-rose-600">
+          <li>✔ Técnicas especiais de limpeza e conservação</li>
+          <li>✔ Guia de vestuário e acessórios</li>
+          <li>✔ Como criar um espaço adequado para seu bebê reborn</li>
+          <li>✔ Dicas para cuidados diários e especiais</li>
+          <li>✔ Informações exclusivas sobre materiais de qualidade</li>
+        </ul>
+        <p class="mt-4 italic text-rose-500">"Um guia indispensável para quem valoriza seu bebê reborn e quer manter sua beleza e características por muito mais tempo."</p>
+      </div>
+      <div class="bg-pink-100 h-64 w-full rounded-xl shadow flex items-center justify-center text-rose-500 italic">Imagem da capa do e-book</div>
+    </div>
+  </section>
+
+  <!-- Conteúdo -->
+  <section id="conteudo" class="py-20 bg-pink-100 text-center">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-rose-600 mb-4">O que você vai encontrar</h3>
+      <p class="mb-10 text-gray-700">Nosso e-book é organizado em capítulos detalhados que abordam todos os aspectos do cuidado com seu bebê reborn, tornando o aprendizado simples e completo.</p>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 text-left">
+        <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold text-rose-600 mb-2">Introdução ao Mundo Reborn</h4><p>Conheça a história e a arte dos bebês reborn, suas origens e evolução ao longo do tempo.</p></div>
+        <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold text-rose-600 mb-2">Materiais e Componentes</h4><p>Aprenda sobre os materiais utilizados na confecção dos bebês reborn e como identificar produtos de qualidade.</p></div>
+        <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold text-rose-600 mb-2">Cuidados Básicos Diários</h4><p>Técnicas essenciais para o manuseio, limpeza e conservação do seu bebê reborn no dia a dia.</p></div>
+        <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold text-rose-600 mb-2">Cuidados Especiais</h4><p>Procedimentos para situações específicas, como viagens, exposição solar e armazenamento.</p></div>
+        <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold text-rose-600 mb-2">Roupas e Acessórios</h4><p>Guia completo sobre vestuário, calçados e acessórios adequados para seu bebê reborn.</p></div>
+        <div class="bg-white p-6 rounded-xl shadow"><h4 class="font-bold text-rose-600 mb-2">Restauração e Reparos</h4><p>Técnicas básicas para pequenos reparos e como proceder em caso de danos mais sérios.</p></div>
+      </div>
+      <p class="mt-10 font-semibold text-rose-500">E muito mais conteúdo exclusivo!</p>
+      <p class="text-sm text-gray-700">Incluindo entrevistas com especialistas, dicas especiais e bônus exclusivos.</p>
+    </div>
+  </section>
+
+  <!-- Autora -->
+  <section id="autora" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="bg-pink-100 h-64 w-full rounded-full shadow flex items-center justify-center text-rose-500 italic">Foto da Autora</div>
+      <div>
+        <h3 class="text-3xl font-bold text-rose-600 mb-4 border-b-2 border-rose-300 inline-block">Conheça a Autora</h3>
+        <h4 class="text-xl font-semibold text-rose-600 mb-2">Maria Silva</h4>
+        <p class="italic text-gray-600 mb-4">Especialista em Bebês Reborn há mais de 10 anos</p>
+        <p class="mb-4">Com vasta experiência no universo de bebês reborn, Maria Silva se tornou referência nacional no assunto. Sua paixão pelos detalhes e cuidados especiais fez com que suas técnicas se tornassem conhecidas em todo o Brasil.</p>
+        <p>Neste e-book, ela compartilha todo seu conhecimento adquirido ao longo dos anos, oferecendo dicas exclusivas e técnicas que garantem a longevidade e qualidade dos bebês reborn.</p>
+        <div class="flex gap-6 mt-6">
+          <div class="bg-pink-100 px-4 py-2 rounded-lg text-center">
+            <p class="text-xl font-bold text-rose-600">10+</p>
+            <p class="text-sm text-gray-700">Anos de Experiência</p>
+          </div>
+          <div class="bg-pink-100 px-4 py-2 rounded-lg text-center">
+            <p class="text-xl font-bold text-rose-600">500+</p>
+            <p class="text-sm text-gray-700">Bebês Criados</p>
+          </div>
+          <div class="bg-pink-100 px-4 py-2 rounded-lg text-center">
+            <p class="text-xl font-bold text-rose-600">3.000+</p>
+            <p class="text-sm text-gray-700">Alunos Satisfeitos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="py-20 bg-pink-100">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold text-rose-600 mb-10">O que Dizem Nossos Leitores</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <p class="text-yellow-400 mb-2">★★★★★</p>
+          <p class="mb-4">"Este e-book mudou minha relação com minha bebê reborn. As técnicas de cuidados são simples de seguir e extremamente eficientes. Recomendo muito!"</p>
+          <p class="font-bold text-rose-600">Ana Paula</p>
+          <p class="text-sm text-gray-600">São Paulo, SP</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <p class="text-yellow-400 mb-2">★★★★★</p>
+          <p class="mb-4">"Comprei o e-book quando adquiri minha primeira reborn e não me arrependo. O conteúdo é completo e esclareceu todas as minhas dúvidas sobre cuidados."</p>
+          <p class="font-bold text-rose-600">Carlos Eduardo</p>
+          <p class="text-sm text-gray-600">Rio de Janeiro, RJ</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <p class="text-yellow-400 mb-2">★★★★☆</p>
+          <p class="mb-4">"Material de excelente qualidade. As dicas de vestuário e conservação são preciosas. A autora é realmente expert no assunto."</p>
+          <p class="font-bold text-rose-600">Juliana Mendes</p>
+          <p class="text-sm text-gray-600">Belo Horizonte, MG</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comprar -->
+  <section id="comprar" class="py-20 bg-pink-50 text-center">
+    <div class="max-w-xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-rose-600 mb-4">Adquira seu E-book Agora</h3>
+      <p class="mb-8 text-gray-700">Invista no melhor cuidado para seu bebê reborn com nosso guia completo e exclusivo.</p>
+      <div class="bg-white p-8 rounded-xl shadow-xl">
+        <h4 class="text-xl font-bold text-rose-600 mb-2">Oferta Especial</h4>
+        <p class="text-3xl text-rose-700 font-bold mb-2">R$ 39,90 <span class="line-through text-gray-500 text-lg ml-2">R$ 69,90</span></p>
+        <p class="mb-4 text-sm text-gray-600">Pagamento único</p>
+        <ul class="text-left text-rose-600 mb-6 space-y-2">
+          <li>✔ E-book completo em formato PDF</li>
+          <li>✔ Conteúdo exclusivo sobre cuidados especiais</li>
+          <li>✔ Guia de vestuário e acessórios</li>
+          <li>✔ Acesso vitalício ao material</li>
+          <li>✔ Atualizações gratuitas</li>
+          <li>✔ Suporte por e-mail por 30 dias</li>
+        </ul>
+        <a href="#" class="inline-block bg-rose-500 text-white px-6 py-3 rounded-full hover:bg-rose-600">Quero comprar agora</a>
+        <p class="text-sm text-gray-600 mt-2">Pagamento seguro por PIX ou cartão</p>
+      </div>
+      <p class="mt-4 text-sm text-gray-500">Tem dúvidas? Envie um e-mail para contato@bebereborn.com.br</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-20 bg-white text-center">
+    <div class="max-w-2xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-rose-600 mb-6">Perguntas Frequentes</h3>
+      <div class="space-y-4 text-left">
+        <details class="bg-pink-100 p-4 rounded-md shadow">
+          <summary class="font-semibold cursor-pointer text-rose-600">Qual o formato do e-book?</summary>
+          <p class="mt-2 text-sm text-gray-700">PDF digital, compatível com qualquer dispositivo.</p>
+        </details>
+        <details class="bg-pink-100 p-4 rounded-md shadow">
+          <summary class="font-semibold cursor-pointer text-rose-600">Como recebo o e-book após a compra?</summary>
+          <p class="mt-2 text-sm text-gray-700">Você receberá automaticamente por e-mail.</p>
+        </details>
+        <details class="bg-pink-100 p-4 rounded-md shadow">
+          <summary class="font-semibold cursor-pointer text-rose-600">O e-book serve para qualquer tipo de bebê reborn?</summary>
+          <p class="mt-2 text-sm text-gray-700">Sim! Ele é adaptado para diferentes modelos e materiais.</p>
+        </details>
+        <details class="bg-pink-100 p-4 rounded-md shadow">
+          <summary class="font-semibold cursor-pointer text-rose-600">Posso imprimir o material?</summary>
+          <p class="mt-2 text-sm text-gray-700">Sim, você pode imprimir para uso pessoal.</p>
+        </details>
+        <details class="bg-pink-100 p-4 rounded-md shadow">
+          <summary class="font-semibold cursor-pointer text-rose-600">Existe garantia de satisfação?</summary>
+          <p class="mt-2 text-sm text-gray-700">Sim! Garantia de 7 dias ou seu dinheiro de volta.</p>
+        </details>
+      </div>
+      <p class="mt-6 text-sm text-gray-500">Ainda tem dúvidas? Envie um e-mail para suporte@bebereborn.com.br</p>
+    </div>
+  </section>
+
 </body>
+</html>
+
 </html>
